@@ -1,0 +1,113 @@
+
+<!-- Do not modify this template-->
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Covid-19</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+
+<body>
+	<section>
+		<h1>
+			<center>COVID-19 TRACKER</center>
+		</h1>
+		<p>Last updated : <span id="lastChecked"> </span></p>
+       
+   <p>Dark Mode</p>    <label class="switch">
+  <input type="checkbox">
+  <span class="slider round"></span>
+</label>
+
+<hr>
+	</section>
+
+	<section id="totals">
+		<!-- display total deaths, confirmed,recovered count-->
+		<h2>Total Count :</h2>
+		<p>Confirmed : <span id="confirmed"> </span></p>
+		<p>Recovered : <span id="recovered"> </span></p>
+		<p>Deaths : <span id="deaths"> </span></p>
+
+
+	</section>
+
+	<section class="searchCountry">
+		<!-- add search text field -->
+		<!-- add button and call getCountryData -->
+     	<input id='sCountry' type="text" placeholder="Country">
+		<button onclick="getCountryTotal()" id="demo">Load</button>
+		<p id='errorMessage'></p>
+	</section>
+
+	<section id="selectedCountryTotals">
+		<!-- display selectedCountry, total deaths, confirmed,recovered count-->
+
+		<h2>Selected Country : <span id="selectedCountry"> </span> </h2>
+		<p>Confirmed : <span id="selectedConfirmed"> </span></p>
+		<p>Recovered : <span id="selectedRecovered"> </span></p>
+		<p>Deaths : <span id="selectedDeaths"> </span></p>
+
+	</section>
+
+
+
+	<h2>Affected Countries  ( <span id='count'></span> )</h2>
+	<section id="countries">
+		
+		<!--List of affected countries-->
+
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<ul id="covid19Stats">
+					<a href="#"><span id= "Stats"></span></a> 
+	
+	
+	
+					</ul>
+				</div>
+	
+			</div>
+		</div>
+
+	</section>
+
+	<section id="countries_details">
+		<h2>Affected Countries - Details</h2>
+		<!--List of affected countries-->
+
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<ul id="covid19Stats_details">
+	
+	
+	
+					</ul>
+				</div>
+	
+			</div>
+		</div>
+
+	</section>
+
+
+	
+	<script type="text/javascript" src="/js/script.js"></script>
+	<script type="text/javascript">
+		getTotals();
+		stats();
+		getCountryTotal();
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+</body>
+
+</html>
