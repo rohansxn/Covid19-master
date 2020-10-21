@@ -7,11 +7,11 @@
 The Objective of this assignment is to work with ReST API's , understand asynchronous programming and build interactive web pages using Javascript.  
 
 ## Prerequisites
-//heelo rohgan
 1. Fork this boilerplate repository  
 2. Clone the boilerplate repository and cd into it  
 3. Install dependencies. The idea here is to use json-server to serve static pages and data. 
 Note:  Use json-server only if 3rd party services are down.
+//This is my changes
 
 ```
   npm install
