@@ -1,3 +1,5 @@
+Test
+
 # Problem Statement
 
 The spread of coronavirus (COVID-19) has understandably escalated concerns when it comes to how businesses manage visitors. The virus has made it crucial for workplaces to limit unnecessary person-to-person contact and potential transmission incidents. We've heard from many customers looking to alter the way they check-in, track, and collect information in order to protect visitors and employees from potential exposure to coronavirus. We understand this new pandemic has added stress to what can already be a chaotic process. We're here to help alleviate the anxiety of not knowing crucial coronavirus-related information about everyone in your building—visitors and employees alike.
